@@ -1,0 +1,21 @@
+name: Bombs
+main: me.perotin.bombs.BombsPlugin
+version: 1.2.1
+author: Perotin
+commands:
+   createbomb:
+      description: Creates a bomb!
+      usage: /createbomb <name-of-bomb> <explosion-power> <fuse-time> <velocity>
+   deletebomb:
+      description: Deletes a bomb!
+      usage: /deletebomb <bomb-name>
+   listbombs:
+      description: Lists all current bombs!
+      usage: /listbombs
+   givebomb:
+      description: Gives a bomb to a player!
+      usage: /givebomb <player> <bomb> <amount>
+   bombs:
+      description: Brings up information
+      usage: /bombs
+      aliases: [bomb]

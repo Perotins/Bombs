@@ -1,0 +1,24 @@
+# Configuration ! This config is mainly used for messages because the bombs.yml takes care of all bomb configuration!
+
+# Only use variables that are given for the message, also leave a space after the 'prefix' index!
+
+prefix: "&7[&6Bombs&7] "
+no-permission: "&cYou do not have permission to do this!"
+
+create-bomb-not-holding: "&cYou must be holding an item to use for the bomb!"
+create-incorrect-args: "&cIncorrect arguments! /createbomb <name> <explosion-power> <fuse-time> <velocity>"
+create-not-a-number: "&cPlease enter only numbers for <explosion-power>, <fuse-time> and <velocity>"
+create-first-line-lore: "&e&oRight click to throw!"
+created-bomb: "&aBomb created! &7You can use the &6/givebomb &7command to get it!"
+create-name-taken: "&cThat name is already taken!"
+no-bombs: "&6No bombs found!"
+
+delete-incorrect-args: "&cIncorrect arguments! /deletebomb <bomb>"
+unknown-bomb: "&c%bomb is unknown!"
+deleted-bomb: "&aYou &7have deleted &a%bomb!"
+
+give-incorrect-args: "&cIncorrect arguments! /givebomb <player> <bomb> <amount>"
+unknown-player: "&c%player is unknown!"
+give-numbers-only: "&cPlease enter a number only for <amount>!"
+give-bomb-sender: "&7You have given &a%amount %bombs &7to &a%player"
+give-bomb-receiver: "&7You have received &a%amount %bombs&7!"
